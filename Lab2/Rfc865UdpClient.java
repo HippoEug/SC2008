@@ -11,7 +11,7 @@ public class Rfc865UdpClient {
 		DatagramSocket socket = new DatagramSocket();
 		InetAddress address = InetAddress.getByName("hwlab1.scse.ntu.edu.sg"); // quote of the day server
 		//InetAddress address = InetAddress.getByName("127.0.0.1"); // loopback to send to Rfc865UdpServer.java
-		//InetAddress address = InetAddress.getByName("172.21.144.28"); // kelbo
+		//InetAddress address = InetAddress.getByName("172.21.144.28"); // Donald Duck
 		
 		byte[] buffer = new byte[512];
 		
